@@ -42,3 +42,20 @@ Build Responsive Real-World Websites with HTML and CSS
 ## 使用 UTF-8 转义字符
 
 ## Live Server Extension 原理
+
+## 什么是 CSS
+
+- Cascading Style Sheets 层叠样式表
+- CSS describes the visual style and presentation of the content written in HTML. CSS 描述了用 HTML 编写的内容的视觉样式和表示
+- CSS consists of countless properties that developers use to format the content: properties about font, text, spacing, layout, etc. CSS 包含无数开发者用来格式化内容的属性:字体、文本、间距、布局等属性。
+
+## 样式优先级
+
+优先级从高到低：
+
+1. !important 如果可以避免，尽量不要使用！
+2. inline style 内联样式
+3. ID selector ID 选择器
+4. Class(.) or pseudo-class(::) selector 类选择器、伪类选择器
+5. Element selector 元素选择器
+6. Universal selector (\*) 全局选择器
